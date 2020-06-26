@@ -13,7 +13,7 @@ module.exports = {
         typeName: 'Documentation',
         baseDir: './documentations',       
 		siteUrl: 'https://OliPerraul.github.io',
-		pathPrefix: '/technical-writing-tutorialquest',
+		pathPrefix: '',
         template: './src/templates/Documentation.vue',
         route: '/documentations/:slug',
         plugins: [
