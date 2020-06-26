@@ -11,8 +11,9 @@ module.exports = {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Documentation',
-        baseDir: './documentations',
-        pathPrefix: '/documentations',
+        baseDir: './documentations',       
+		siteUrl: 'https://OliPerraul.github.io',
+		pathPrefix: '/technical-writing-tutorialquest',
         template: './src/templates/Documentation.vue',
         route: '/documentations/:slug',
         plugins: [
