@@ -1,0 +1,21 @@
+{
+  "name": "tutorial-quest",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/remark-prismjs": "^0.3.0",
+    "@gridsome/vue-remark": "^0.1.10",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.10.1",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-remark-mermaid": "^1.0.1",
+    "gridsome-plugin-remark-youtube": "^1.0.1",
+    "metalsmith-plantuml": "0.0.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {}
+}
